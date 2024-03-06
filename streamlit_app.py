@@ -41,7 +41,7 @@ if __name__ == "__main__":
     env_path = os.getenv("HOME") + ".env"
     load_dotenv(dotenv_path=env_path, verbose=True) 
 
-    st.title('Return Help Review')
+    st.title(env_path)
 
     prompt = st.chat_input("Enter your questions here")
 
