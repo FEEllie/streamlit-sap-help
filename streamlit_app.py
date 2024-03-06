@@ -41,7 +41,7 @@ if __name__ == "__main__":
     env_path =  os.getcwd()+"/.env"
     load_dotenv(dotenv_path=env_path, verbose=True) 
 
-    st.title(env_path)
+    st.title("Sap Return Help Chatbot")
 
     prompt = st.chat_input("Enter your questions here")
 
