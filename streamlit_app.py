@@ -38,10 +38,10 @@ if __name__ == "__main__":
     os.environ["OPENAI_API_TYPE"] = "azure"
     os.environ["OPENAI_API_VERSION"] = "2023-05-15"
     os.environ["OPENAI_API_BASE"] = "https://pvg-azure-openai-uk-south.openai.azure.com/openai"
-    env_path = os.getenv("HOME") + "/Documents/src/openai/.env"
+    env_path = os.getenv("HOME") + ".env"
     load_dotenv(dotenv_path=env_path, verbose=True) 
 
-    st.title('Amazon Food Review')
+    st.title('Return Help Review')
 
     prompt = st.chat_input("Enter your questions here")
 
